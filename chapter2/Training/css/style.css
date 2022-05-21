@@ -1,7 +1,18 @@
 @charset "UTF-8";
 
+.container {
+    overflow: auto;
+    /* scroll-snap-type: y mandatory; */
+    scroll-snap-type: y proximity;
+    height: 100vh;
+}
+
 section {
     height: 100vh;
+    /* scroll-snap-align: start; */
+    /* scroll-snap-align: end; */
+    scroll-snap-align: center;
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -13,11 +24,29 @@ section {
     padding-top: 10vh;
 }
 
+.menu {
+    background-image: url(../images/bread2.jpg);
+    display: flex;
+    align-items: center;
+}
+
+.menu .wrapper {
+    margin: 0 auto;
+}
+
+.contact {
+    background-image: url(../images/cafe.jpg);
+    text-align: center;
+    padding-top: 10vh;
+}
+
 .title {
     font-family: 'Dancing Script', cursive;
     font-size: 7rem;
     margin-bottom: 2rem;
 }
+
+
 
 /* spサイズ
 --------------------------------- */
