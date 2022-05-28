@@ -32,6 +32,11 @@
 
 }
 
+.post-thumb {
+    margin: 0 0 1rem 0;
+    position: relative;
+}
+
 /* デスクトップサイズ
 ------------------------------------- */
 @media (min-width: 600px) {
@@ -54,9 +59,23 @@
         width: 26%;
     }
 
+    
+    .post-thumb {
+        margin: 0 3rem 1rem 0;
+        float: left;
+        clear: both;
+        shape-outside: circle();
+    }
+
     .post-img {
         width: 220px;
         height: 180px;
         
     }
+
+    .post-desc {
+        padding-top: 1rem;
+    }
+
+    
 }
