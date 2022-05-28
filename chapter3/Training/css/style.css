@@ -1,1 +1,25 @@
 @charset "UTF-8";
+
+/* デスクトップサイズ
+------------------------------------- */
+@media (min-width: 600px) {
+    .container {
+        background-color: beige;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4rem;
+        padding: 1rem 2.5rem 2.5rem;
+    }
+
+    main {
+        background-color: aqua;
+        width: 68%;
+        margin-bottom: 0px;
+
+    }
+
+    aside {
+        background-color: aquamarine;
+        width: 26%;
+    }
+}
