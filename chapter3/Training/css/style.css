@@ -1,5 +1,27 @@
 @charset "UTF-8";
 
+.post-title {
+    padding-bottom: 10px;
+    background-image: linear-gradient(45deg, #fff 30%, #ccc 30%, #ccc 50%, #fff 50%, #fff 80%, #ccc 80%, #ccc 100%);
+    background-size: 6px 6px;
+    margin-bottom: 1.5rem;
+}
+
+.post-title h2 {
+    background-color: #fff;
+    padding: 0.5rem 0.875rem;
+    font-size: 1.5rem;
+    font-family: 'M PLUS Rounded Ic', sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.post-title h2 {
+    color: #949087;
+    text-decoration: none;
+
+}
+
 /* デスクトップサイズ
 ------------------------------------- */
 @media (min-width: 600px) {
@@ -12,7 +34,6 @@
     }
 
     main {
-        background-color: aqua;
         width: 68%;
         margin-bottom: 0px;
 
