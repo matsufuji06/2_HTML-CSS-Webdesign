@@ -60,6 +60,35 @@
     border: 2px dashed #eda1a1;
 }
 
+.pagenation {
+    display: flex;
+    justify-content: center;
+    font-family: 'M PLUS Rounded 1C', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.pagenation a:hover {
+    background-color: #93d8d0;
+    color: #fff;
+}
+
+.pagenation a,
+.pagenation .current {
+    border-radius: 50%;
+    padding-top: 4px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin: 0 6px;
+
+}
+
+.pagenation .current {
+    background-color: #ccc;
+    color: #fff;
+}
+
 /* デスクトップサイズ
 ------------------------------------- */
 @media (min-width: 600px) {
